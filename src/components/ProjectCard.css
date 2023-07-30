@@ -1,0 +1,23 @@
+.card-wrapper{
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: -7px 10px 5px;
+    padding: 5%;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+.card-wrapper:hover {
+    top: -10px;
+}
+
+#bottom-info{
+    margin-top: 5%;
+}
